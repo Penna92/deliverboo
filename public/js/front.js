@@ -2215,6 +2215,7 @@ __webpack_require__.r(__webpack_exports__);
         //   }
         // };
         // modal.style.display = "block";
+        // SUCCESSIVAMENTE DA SOSTITUIRE CON UN MODALE BLOCCANTE
         var deleteCart = confirm("Non puoi acquistare contemporanemante da più ristoranti. Vuoi veramente svuotare il carrello per inserire questo prodotto?"); // DICHIARAZIONE E EVENT LISTENER SUL BOTTONE DI CONFERMA DEL MODALE
         // var confirmDeleteButton = document.getElementById(
         //   "confirmDeleteButton"

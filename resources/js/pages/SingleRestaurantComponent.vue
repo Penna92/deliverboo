@@ -288,6 +288,8 @@ export default {
         // };
 
         // modal.style.display = "block";
+
+        // SUCCESSIVAMENTE DA SOSTITUIRE CON UN MODALE BLOCCANTE
         let deleteCart = confirm(
           "Non puoi acquistare contemporanemante da più ristoranti. Vuoi veramente svuotare il carrello per inserire questo prodotto?"
         );
