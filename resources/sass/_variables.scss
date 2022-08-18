@@ -1,0 +1,36 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// Palette Colors
+
+$PrimaryColor: #042940; // BLUE
+$SecondaryColor: #005c53; // BLUE MARINE
+$TertiaryColor: #9fc131; // LIME GREEN
+$QuaternaryColor: #dbf227; // YELLOW
+$QuintiaryColor: #d6d58e; // SAND
+
+
+.primaryColorBG {
+    background-color: $PrimaryColor; //BLUE COLOR
+}
+
+.secondaryColorBG {
+    background-color: $SecondaryColor; //BLUE MARINE
+}

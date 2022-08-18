@@ -1,0 +1,84 @@
+@import "./variables";
+
+body {
+    background-image: url("https://svgshare.com/i/j84.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    main {
+        min-height: calc(100vh - 250px);
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+        .container {
+            width: 100%;
+        }
+        .card {
+            background-color: transparent!important;
+            border: none!important;
+        }
+
+
+        .card-header {
+            background-color: $PrimaryColor !important;
+            border-radius: 1rem!important;
+        }
+        .card-body {
+            border-radius: 1rem;
+            background-color: $PrimaryColor !important;
+        }
+
+        .login-class {
+            padding: 5rem 0;
+            border-radius: 1rem;
+            background-color: $PrimaryColor;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+
+            .btn-login,
+            .btn-submit {
+                background-color: $QuaternaryColor !important;
+
+                &:hover,
+                .btn-submit:hover {
+                    background-color: $SecondaryColor !important;
+                    color: white;
+                }
+            }
+
+            .login-class {
+                padding: 5rem 0;
+                border-radius: 1rem;
+                background-color: $PrimaryColor;
+                box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+
+                .btn-login,
+                .btn-submit {
+                    background-color: $QuaternaryColor !important;
+
+                    &:hover,
+                    .btn-submit:hover {
+                        background-color: $SecondaryColor !important;
+                        color: white;
+                    }
+                }
+
+                .btn-link {
+                    color: $SecondaryColor !important;
+                    text-decoration: underline;
+                    font-weight: 900;
+
+                    &:hover {
+                        color: $QuaternaryColor !important;
+                    }
+                }
+
+                .form-check-input:checked {
+                    background-color: $PrimaryColor !important;
+                }
+            }
+        }
+    }
+}

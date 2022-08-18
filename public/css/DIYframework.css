@@ -1,0 +1,12 @@
+.DIY-button1{
+    background-color: var(--QuaternaryColor) !important;
+    color: black !important;
+    font-weight: 500 !important;
+    border-radius: .5rem !important;
+}
+.DIY-button1:hover{
+    background-color: var(--QuaternaryColorV2) !important;
+    color: black !important;
+    font-weight: 500 !important;
+    border-radius: .5rem !important;
+}

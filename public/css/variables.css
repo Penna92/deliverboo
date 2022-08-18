@@ -1,0 +1,35 @@
+:root{
+    --PrimaryColor: #042940;  /*BLUE */
+    --SecondaryColor:#005C53; /*BLUE MARINE */
+    --TertiaryColor:#9FC131; /* LIME GRAY */
+    --QuaternaryColor:#DBF227; /*YELLOW */
+    --QuintiaryColor:#D6D58E; /* SAND */
+
+
+    --PrimaryColorV2: #042940;  /*BLUE */
+    --SecondaryColorV2:#005C53; /*BLUE MARINE */
+    --TertiaryColorV2:#9FC131; /* LIME GRAY */
+    --QuaternaryColorV2:#bfd420; /*YELLOW */
+    --QuintiaryColorV2:#D6D58E; /* SAND */
+}
+
+
+.btn_main {
+    background-color:var(--QuaternaryColor)!important;/* YELLOW */
+    text-transform: uppercase;
+    color:var(--SecondaryColor)!important; /*BLUE MARINE */
+    font-size: 15px;
+    margin: 0 .2rem ;
+}
+.btn_main:hover {
+    background-color: var(--SecondaryColor)!important; /*BLUE MARINE */
+    color: white!important;
+}
+
+.navbar_dark {
+    background-color: var(--PrimaryColor)!important;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,.35)!important;
+    z-index: 1;
+    /*margin:.2rem 0!important; */
+
+}
